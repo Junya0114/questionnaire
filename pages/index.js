@@ -112,18 +112,7 @@ export default function Home() {
 
           </div>
 
-          <div>
-            {
-              islearning.value = "true" && (
-                <span>Q5. 今まで学習したことのあるプログラミング言語をすべて教えてください。</span>
-              )
-            }
-            {
-              waslearning.value = "true" && (
-                <span>""</span>
-              )
-            }
-          </div>
+
 
           <input type="submit" value="アンケートを提出する" />
         </form>
